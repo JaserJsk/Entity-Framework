@@ -1,0 +1,4 @@
+Angående ett problem när vi skapar upp code-first lösningar och vill ha genererade databaser.
+Vi måste ändra lite på våran default connection factory för att det skall skapas en databas i SQL.
+
+https://blogs.msdn.microsoft.com/davidobando/2012/08/14/changing-efs-default-connection-factory-from-localdb-to-sql-server/
