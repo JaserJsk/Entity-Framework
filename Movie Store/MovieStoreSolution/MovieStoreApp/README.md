@@ -11,8 +11,7 @@ Först börjar jag med att se till att rätt ```data source & initial catalog```
 
 Nedanstående kod lägger till ny film i databasen.
 
-```
-``` NewFilm.aspx.cs ```
+``` NewFilm.aspx.cs 
 private void AddMovieToDb()
 {
     using (var ctx = new MediaEntities())
