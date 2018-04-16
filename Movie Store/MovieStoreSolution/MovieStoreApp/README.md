@@ -1,5 +1,5 @@
 
-Först börjar jag med att se till att rätt ```data source & initial catalog``` är konfigurerad.
+First make sure that the correct ```data source & initial catalog``` is configured.
 
 ``` Web.config
 <connectionStrings>
@@ -9,7 +9,7 @@ Först börjar jag med att se till att rätt ```data source & initial catalog```
 </connectionStrings>
 ```
 
-Nedanstående kod lägger till ny film i databasen.
+The following code adds a new movie to the database.
 
 ``` NewFilm.aspx.cs 
 private void AddMovieToDb()
@@ -35,7 +35,7 @@ private void AddMovieToDb()
 }
 ```
 
-Nedanstående kod lägger till ny kund i databasen.
+The following code adds a new customer to the database.
 
 ``` NewCustomer.aspx.cs
 private void AddCustomerToDb()
@@ -60,7 +60,7 @@ private void AddCustomerToDb()
 }
 ```
 
-Nedanstående kod hyr ut en existerande film till en  existerande kund.
+The following code rents an existing movie to an existing customer.
 
 ``` Rent.aspx.cs
 protected void btnRentMovie_Click(object sender, EventArgs e)
