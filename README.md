@@ -1,1 +1,1 @@
-Entity Framework Projects Created By Jonas - [Jonas.Jsk@outlook.com]
+Entity Framework Projects Created By Jaser Jsk [Jaser.Jsk@gmail.com]
